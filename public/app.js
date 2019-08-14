@@ -1,0 +1,1 @@
+(()=>{const e={message:"Hello, World!"},{message:o}=e;console.log(o)})();
