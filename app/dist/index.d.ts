@@ -1,1 +1,22 @@
-export {};
+declare const canvas: HTMLCanvasElement;
+declare const context: CanvasRenderingContext2D;
+declare const width = 320;
+declare const height = 240;
+declare const sw = 16;
+declare const sh = 16;
+declare const tw = 20;
+declare const th = 15;
+declare const randInt: (exclMax: number) => number;
+declare const playpal: string[];
+declare const grasspal: string[];
+declare const treepal: string[];
+declare const mapData: number[];
+declare const map: {
+    width: number;
+    height: number;
+    data: number[];
+};
+declare const px = 10;
+declare const py = 7;
+declare const start: () => void;
+declare const sprites: HTMLImageElement;

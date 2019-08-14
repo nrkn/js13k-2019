@@ -6,7 +6,7 @@
   "scripts": {
     "build-app": "chdir ./app && tsc && chdir ..",
     "build-build": "chdir ./build && tsc && chdir ..",
-    "build-public": "npm run --silent build-app && npm run --silent build-build && node --no-warnings ./build/dist"
+    "build-public": "npm run build-app && npm run build-build && node --no-warnings ./build/dist"
   },
   "repository": {
     "type": "git",
